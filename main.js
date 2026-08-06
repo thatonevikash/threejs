@@ -4,4 +4,5 @@
 // import "./04_animation_loop/main";
 // import "./05_helpers/main";
 // import "./05_helpers/resizer";
-import "./06_orbit_controls/main";
+// import "./06_orbit_controls/main";
+import "./07_lights_and_materials/main";
