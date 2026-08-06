@@ -37,6 +37,14 @@ scene.add(cube);
 
 camera.position.z = 5;
 
+window.addEventListener("resize", () => {
+  camera.aspect = window.innerWidth / window.innerHeight;
+
+  camera.updateProjectionMatrix();
+
+  renderer.setSize(window.innerWidth, window.innerHeight - 1);
+});
+
 const clock = new THREE.Clock();
 
 function animate() {
