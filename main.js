@@ -5,4 +5,5 @@
 // import "./05_helpers/main";
 // import "./05_helpers/resizer";
 // import "./06_orbit_controls/main";
-import "./07_lights_and_materials/main";
+// import "./07_lights_and_materials/main";
+import "./08_shadows/main";
