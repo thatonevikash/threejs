@@ -31,20 +31,22 @@ scene.add(cube);
 
 camera.position.z = 5;
 
-window.addEventListener("resize", () => {
-  camera.aspect = window.innerWidth / window.innerHeight;
-
-  camera.updateProjectionMatrix();
-
-  renderer.setSize(window.innerWidth, window.innerHeight - 1);
-});
-
 const clock = new THREE.Clock();
+
+function scale(element, delta, intensity = 0.1) {
+  if (!element || !delta) return null;
+
+  element.scale.x += delta * intensity;
+  element.scale.y += delta * intensity;
+  element.scale.z += delta * intensity;
+}
 
 function animate() {
   requestAnimationFrame(animate);
 
   const delta = clock.getDelta();
+
+  scale(cube, delta, -1);
 
   cube.rotation.y += delta * 2;
 
