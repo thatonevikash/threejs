@@ -1,16 +1,11 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 
+import * as utils from "../utils";
+
 const scene = new THREE.Scene();
 
-const axesHelper = new THREE.AxesHelper(3);
-axesHelper.rotateX(Math.PI / 6);
-
-const gridHelper = new THREE.GridHelper(5, 10);
-gridHelper.rotateX(Math.PI / 6);
-
-scene.add(axesHelper);
-scene.add(gridHelper);
+utils.helpers(scene);
 
 const camera = new THREE.PerspectiveCamera(
   75,
