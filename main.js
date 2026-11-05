@@ -6,4 +6,12 @@
 // import "./05_helpers/resizer";
 // import "./06_orbit_controls/main";
 // import "./07_lights_and_materials/main";
-import "./08_shadows/main";
+// import "./07_spotlight/main";
+// import "./08_shadows/main";
+
+// .test
+// import "./.test/main";
+
+// projects
+// import "./projects/01_sun_revolving/main";
+import "./projects/02_planetary_system/main";

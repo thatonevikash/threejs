@@ -1,0 +1,66 @@
+{
+  "mercury": {
+    "au": 0.387,
+    "radiusRatio": 0.383,
+    "color": "#a89984",
+    "speed": 4.15,
+    "metalness": 0.1,
+    "roughness": 0.9
+  },
+  "venus": {
+    "au": 0.723,
+    "radiusRatio": 0.95,
+    "color": "#e3bb76",
+    "speed": 1.63,
+    "metalness": 0.0,
+    "roughness": 0.8
+  },
+  "earth": {
+    "au": 1.0,
+    "radiusRatio": 1.0,
+    "color": "#2b82c9",
+    "speed": 1.0,
+    "metalness": 0.1,
+    "roughness": 0.7
+  },
+  "mars": {
+    "au": 1.524,
+    "radiusRatio": 0.532,
+    "color": "#c1440e",
+    "speed": 0.53,
+    "metalness": 0.1,
+    "roughness": 0.9
+  },
+  "jupiter": {
+    "au": 5.204,
+    "radiusRatio": 10.973,
+    "color": "#d4a373",
+    "speed": 0.084,
+    "metalness": 0.0,
+    "roughness": 0.6
+  },
+  "saturn": {
+    "au": 9.582,
+    "radiusRatio": 9.14,
+    "color": "#f4e2bb",
+    "speed": 0.034,
+    "metalness": 0.0,
+    "roughness": 0.6
+  },
+  "uranus": {
+    "au": 19.201,
+    "radiusRatio": 3.981,
+    "color": "#48bfe3",
+    "speed": 0.012,
+    "metalness": 0.0,
+    "roughness": 0.7
+  },
+  "neptune": {
+    "au": 30.047,
+    "radiusRatio": 3.865,
+    "color": "#2b4c7e",
+    "speed": 0.006,
+    "metalness": 0.0,
+    "roughness": 0.7
+  }
+}

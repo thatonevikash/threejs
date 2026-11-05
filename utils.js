@@ -43,12 +43,12 @@ export function scale(element, delta, intensity = 0.1) {
   element.scale.z += delta * intensity;
 }
 
-export function controller(camera, domElement) {
+export function controller(camera, domElement, distance) {
   const controls = new OrbitControls(camera, domElement);
   controls.autoRotate = true;
   controls.autoRotateSpeed = 2;
-  controls.minDistance = 2;
-  controls.maxDistance = 8;
+  controls.minDistance = distance?.min ?? 2;
+  controls.maxDistance = distance?.max ?? 8;
 
   return controls;
 }
