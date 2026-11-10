@@ -1,0 +1,38 @@
+import * as THREE from "three";
+
+export default [
+  {
+    innerRadius: 2.25,
+    outerRadius: 2.75,
+    color: "#d0d8e8",
+    rotation: 1,
+    material: {
+      roughness: 0.15,
+      metalness: 0.1,
+    },
+  },
+  {
+    innerRadius: 2.85,
+    outerRadius: 3.0,
+    color: "#8a7343",
+    rotation: -1,
+    material: {
+      roughness: 0.9,
+      metalness: 0.0,
+    },
+  },
+  {
+    innerRadius: 3.125,
+    outerRadius: 3.5,
+    color: "#20aff0",
+    rotation: 1,
+    material: {
+      roughness: 0.4,
+      emissive: "#0a4466",
+      emissiveIntensity: 0.5,
+      transparent: true,
+      opacity: 0.5,
+      blending: THREE.AdditiveBlending,
+    },
+  },
+];

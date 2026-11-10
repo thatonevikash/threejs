@@ -2,7 +2,7 @@ import * as THREE from "three";
 import * as utils from "../../utils";
 import * as xutils from "../../utils.extra";
 
-import data from "./data.json";
+import data from "./data";
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
