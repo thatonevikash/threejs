@@ -15,4 +15,5 @@
 // projects
 // import "./projects/01_sun_revolving/main";
 // import "./projects/02_planetary_system/main";
-import "./projects/03_planetery_ring_system/main";
+// import "./projects/03_planetery_ring_system/main";
+import "./projects/04_planetery_system_II/main";
