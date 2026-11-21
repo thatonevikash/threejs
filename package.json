@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "dev:react": "npm --prefix 09_reactjs run dev"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "threejs",
+    "starter"
+  ],
+  "author": "thatonevikash",
   "license": "ISC",
   "dependencies": {
     "three": "^0.185.1"
